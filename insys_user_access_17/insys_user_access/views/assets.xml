@@ -1,0 +1,8 @@
+<odoo>
+    <template id="insys_user_access_readonly" name="insys access readonly" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/insys_user_access/static/src/js/insys_access_readonly.js" />
+        </xpath>
+
+    </template>
+</odoo>
