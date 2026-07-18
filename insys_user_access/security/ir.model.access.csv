@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_insys_user_access,insys.user.access,model_insys_user_access,,1,1,1,1
-access_insys_access_type,insys.user.type,model_insys_user_type,,1,1,1,1
