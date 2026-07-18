@@ -1,0 +1,50 @@
+<odoo>
+    <data noupdate="1">
+
+          <record id="insys_employee_access" model="insys.user.type">
+            <field name="name">Employee</field>
+            <field name="description">This user has only user level privileges</field>
+          </record>
+
+          <record id="insys_line_manager_access" model="insys.user.type">
+            <field name="name">Line Manager</field>
+            <field name="description">This user has Line Mnanager level privileges</field>
+          </record>
+
+          <record id="insys_program_manager_access" model="insys.user.type">
+            <field name="name">Program Manager</field>
+            <field name="description">This user has Product Owner level privileges</field>
+          </record>
+
+          <record id="insys_hr_manager_access" model="insys.user.type">
+            <field name="name">HR Manager</field>
+            <field name="description">This user has HR level privileges</field>
+          </record>
+
+          <record id="insys_hr_officer_access" model="insys.user.type">
+            <field name="name">HR Officer</field>
+            <field name="description">This user has Senior Leadership level privileges</field>
+          </record>
+
+        <record id="insys_finance_manager_access" model="insys.user.type">
+            <field name="name">Finance Manager</field>
+            <field name="description">This user has Senior Leadership level privileges</field>
+         </record>
+
+        <record id="insys_finance_reviewer_access" model="insys.user.type">
+            <field name="name">Finance Reviewer</field>
+            <field name="description">This user has Senior Leadership level privileges</field>
+         </record>
+
+        <record id="insys_asset_manager_access" model="insys.user.type">
+            <field name="name">Asset Manager</field>
+            <field name="description">This user has Senior Leadership level privileges</field>
+         </record>
+
+         <record id="insys_admin_access" model="insys.user.type">
+            <field name="name">Admin</field>
+            <field name="description">This user has Senior Leadership level privileges</field>
+         </record>
+
+    </data>
+</odoo>
